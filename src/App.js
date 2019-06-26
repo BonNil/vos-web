@@ -11,7 +11,11 @@ function App() {
 		<div className='App'>
 			<TopHero image={background} />
 			<StickyContainer>
-				<Sticky>{({ style }) => <AnchorBar style={style} />}</Sticky>
+				<Sticky>
+					{({ style, isSticky }) => (
+						<AnchorBar style={style} isSticky={isSticky} />
+					)}
+				</Sticky>
 				<EmployeesSection />
 				<EmployeesSection />
 			</StickyContainer>

@@ -13,7 +13,10 @@ export default class AnchorBar extends React.Component {
 		));
 
 		return (
-			<div className='anchorBar' style={this.props.style}>
+			<div
+				className={this.props.isSticky ? 'anchorBar sticky' : 'anchorBar'}
+				style={this.props.style}
+			>
 				<ul className='anchorList'>{listItems}</ul>
 			</div>
 		);
