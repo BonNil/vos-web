@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.sass';
+import 'bootstrap-4-grid';
 import TopHero from './components/TopHero';
 import AnchorBar from './components/AnchorBar';
-import EmployeesSection from './components/EmployeesSection';
+import Section from './components/Section';
+import Employees from './components/Employees';
 import { StickyContainer, Sticky } from 'react-sticky';
 import background from './assets/images/hero.jpg';
 
@@ -16,8 +18,10 @@ function App() {
 						<AnchorBar style={style} isSticky={isSticky} />
 					)}
 				</Sticky>
-				<EmployeesSection />
-				<EmployeesSection />
+				<Section image={background}>
+					<Employees />
+				</Section>
+				<Section color='#36393d' />
 			</StickyContainer>
 		</div>
 	);

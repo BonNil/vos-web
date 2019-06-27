@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Robert Nilsson",
+		"role": "Ägare och VD",
+		"started": "2000"
+	},
+	{
+		"name": "Lill Nilsson",
+		"role": "Ekonomi och bokföring",
+		"started": "2000"
+	},
+	{
+		"name": "Fredrik Asplund",
+		"role": "Grävmaskinist",
+		"started": "2010"
+	},
+	{
+		"name": "Johan Nilsson",
+		"role": "Grävmaskinist",
+		"started": "2001"
+	},
+	{
+		"name": "Björn Nilsson",
+		"role": "Maskinist",
+		"started": "2000"
+	},
+	{
+		"name": "Jörgen Göransson",
+		"role": "Lastbilschaufför",
+		"started": "2019"
+	}
+]

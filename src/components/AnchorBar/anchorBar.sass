@@ -2,15 +2,16 @@
 
 .anchorBar
 	display: flex
+	z-index: 100
 	flex-direction: row
 	direction: rtl
 	align-items: center
 	width: 100%
 	height: 5em
+	transition: height 0.2s ease-in-out
 	background-color: $yellow
 	&.sticky
 		height: 3em
-		transition: height 0.2s ease-in-out
 
 	.anchorList
 		width: 50%

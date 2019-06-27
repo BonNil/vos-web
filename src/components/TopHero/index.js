@@ -2,6 +2,7 @@ import React from 'react';
 import './topHero.sass';
 
 export default function TopHero(props) {
+	console.log(props.image);
 	return (
 		<div
 			className='topHero'
