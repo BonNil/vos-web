@@ -12,7 +12,7 @@ export default function TopHero(props) {
 			}}
 		>
 			<div className='text-wrap'>
-				<h2>VÄG- & Schaktmaskiner AB</h2>
+				<h1>VÄG- & Schaktmaskiner AB</h1>
 			</div>
 		</div>
 	);

@@ -2,28 +2,31 @@ import React from 'react';
 import './section.sass';
 
 export default function Section(props) {
-	var background = null;
-	if (props.image) {
-		background = `url(${props.image}) no-repeat`;
-	} else {
-		background = props.color;
-	}
+	const color = props.darkMode
+		? {
+				heading: '#ffc843',
+				subheading: '#fff',
+				background: '#5a5e65',
+		  }
+		: {
+				heading: '#ffc843',
+				subheading: '#5a5e65',
+				background: '#fff',
+		  };
 
 	return (
-		<div className='sectionWrapper'>
-			{' '}
-			<div
-				className='section'
-				style={{
-					background: background,
-					backgroundSize: 'cover',
-					filter: 'gray',
-					WebkitFilter: 'grayscale(100%)',
-				}}
-			>
-				<div className='colorOverlay'></div>
+		<div className='sectionWrapper' style={{ background: color.background }}>
+			<div className='innerContainer container'>
+				<div className='headingWrapper' style={{ textAlign: props.align }}>
+					<h2 className='sectionHeading' style={{ color: color.heading }}>
+						{props.heading}
+					</h2>
+					<h2 className='sectionSubheading' style={{ color: color.subheading }}>
+						{props.subheading}
+					</h2>
+				</div>
+				{props.children}
 			</div>
-			<div className='innerContainer'>{props.children}</div>
 		</div>
 	);
 }
