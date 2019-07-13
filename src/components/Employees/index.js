@@ -15,8 +15,11 @@ export default function Employees(props) {
 		if (!result[0]) return null;
 
 		return (
-			<div className='employeeWrapper col-md-3 col-sm-6 col-xs-12'>
-				<div className='employeeCard' key={`employee-${i}`}>
+			<div
+				className='employeeWrapper col-md-3 col-sm-6 col-xs-12'
+				key={`employee-${i}`}
+			>
+				<div className='employeeCard'>
 					<div>
 						<img className='portrait' src={result[0].url}></img>
 						<div className='colorOverlay'></div>

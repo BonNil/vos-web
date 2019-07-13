@@ -20,6 +20,7 @@ function App() {
 				</Sticky>
 				<Section
 					darkMode={true}
+					id='about'
 					heading='OM OSS'
 					subheading='Väg & schakt maskiner: The story'
 					align='left'
@@ -58,6 +59,7 @@ function App() {
 				</Section>
 				<Section
 					darkMode={false}
+					id='employees'
 					heading='ANSTÄLLDA'
 					subheading='Våra sinnesjukt kompetenta anställda'
 					align='right'

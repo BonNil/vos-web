@@ -3,11 +3,18 @@ import './anchorBar.sass';
 
 export default class AnchorBar extends React.Component {
 	render = () => {
-		var things = ['JUICE', 'KAFFE', 'BANAN', 'ÄPPLE', 'RAMEN'];
+		var things = [
+			{ title: 'OM OSS', anchor: '#about' },
+			{ title: 'ANSTÄLLDA', anchor: '#employees' },
+			{ title: 'PROJEKT', anchor: '#projects' },
+			{ title: 'KONTAKT', anchor: '#contact' },
+		];
 
-		var listItems = things.map((item, i) => (
+		var listItems = things.reverse().map((item, i) => (
 			<React.Fragment key={`anchorItem_${i}`}>
-				<li className='anchorItem'>{item}</li>
+				<li className='anchorItem'>
+					<a href={item.anchor}>{item.title}</a>
+				</li>
 				{i + 1 !== things.length && <div className='slash'>/</div>}
 			</React.Fragment>
 		));
