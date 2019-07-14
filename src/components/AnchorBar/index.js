@@ -6,6 +6,7 @@ export default class AnchorBar extends React.Component {
 		var things = [
 			{ title: 'OM OSS', anchor: '#about' },
 			{ title: 'ANSTÄLLDA', anchor: '#employees' },
+			{ title: 'MASKINER', anchor: '#machines' },
 			{ title: 'PROJEKT', anchor: '#projects' },
 			{ title: 'KONTAKT', anchor: '#contact' },
 		];
