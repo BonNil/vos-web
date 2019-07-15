@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Maskin X",
+		"modelYear": "2000"
+	},
+	{
+		"name": "Maskin Y",
+		"modelYear": "2000"
+	},
+	{
+		"name": "Maskin Z",
+		"modelYear": "2010"
+	},
+	{
+		"name": "Maskin A",
+		"modelYear": "2001"
+	},
+	{
+		"name": "Maskin B",
+		"modelYear": "2000"
+	},
+	{
+		"name": "Maskin C",
+		"modelYear": "2019"
+	}
+]

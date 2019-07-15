@@ -5,9 +5,10 @@ import TopHero from './components/TopHero';
 import AnchorBar from './components/AnchorBar';
 import Section from './components/Section';
 import Employees from './components/Employees';
+import Machines from './components/Machines';
 import Footer from './components/Footer';
 import { StickyContainer, Sticky } from 'react-sticky';
-import background from './assets/images/hero.jpg';
+import background from './assets/images/hero_1920.jpg';
 import aboutParagraphs from './assets/content/about.json';
 
 function App() {
@@ -42,6 +43,22 @@ function App() {
 				>
 					<Employees />
 				</Section>
+				<Section
+					darkMode={true}
+					id='machines'
+					heading='MASKINER'
+					subheading='Grävmaskiner, schaktmaskiner, lastbilar: Vi har rätt utrustning för jobbet.'
+					align='left'
+				>
+					<Machines />
+				</Section>
+				<Section
+					darkMode={false}
+					id='projects'
+					heading='PROJEKT'
+					subheading='Stort som smått: Vi gör det mesta inom schakt och gräv.'
+					align='right'
+				></Section>
 				<Footer />
 			</StickyContainer>
 		</div>
