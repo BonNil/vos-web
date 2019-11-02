@@ -6,6 +6,7 @@ import AnchorBar from './components/AnchorBar';
 import Section from './components/Section';
 import Employees from './components/Employees';
 import Machines from './components/Machines';
+import ImageGallery from './components/Gallery';
 import Footer from './components/Footer';
 import { StickyContainer, Sticky } from 'react-sticky';
 import background from './assets/images/hero_1920.jpg';
@@ -59,6 +60,15 @@ function App() {
 					subheading='Stort som smått: Vi gör det mesta inom schakt och gräv.'
 					align='right'
 				></Section>
+				<Section
+					darkMode={true}
+					id='gallery'
+					heading='BILDGALLERI'
+					subheading='Kolla grejjer'
+					align='left'
+				>
+					<ImageGallery />
+				</Section>
 				<Footer />
 			</StickyContainer>
 		</div>

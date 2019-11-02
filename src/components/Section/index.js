@@ -17,7 +17,10 @@ export default function Section(props) {
 
 	return (
 		<ScrollableAnchor id={props.id}>
-			<div className='sectionWrapper' style={{ background: color.background }}>
+			<div
+				className={`${props.darkMode ? 'darkMode ' : ''}sectionWrapper`}
+				style={{ background: color.background }}
+			>
 				<div className='innerContainer container'>
 					<div className='headingWrapper' style={{ textAlign: props.align }}>
 						<h2 className='sectionHeading' style={{ color: color.heading }}>
