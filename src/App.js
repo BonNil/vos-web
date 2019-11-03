@@ -26,7 +26,7 @@ function App() {
 					darkMode={true}
 					id='about'
 					heading='OM OSS'
-					subheading='Väg & schakt maskiner: The story'
+					subheading='Och vad vi kan göra för dig'
 					align='left'
 				>
 					<div className='col-md-12 paragraph'>
@@ -39,7 +39,7 @@ function App() {
 					darkMode={false}
 					id='employees'
 					heading='ANSTÄLLDA'
-					subheading='Våra sinnesjukt kompetenta anställda'
+					subheading='Vår viktigaste resurs'
 					align='right'
 				>
 					<Employees />
@@ -48,7 +48,7 @@ function App() {
 					darkMode={true}
 					id='machines'
 					heading='MASKINER'
-					subheading='Grävmaskiner, schaktmaskiner, lastbilar: Vi har rätt utrustning för jobbet.'
+					subheading='Toppmoderna och väl underhållna'
 					align='left'
 				>
 					<Machines />
@@ -57,7 +57,7 @@ function App() {
 					darkMode={false}
 					id='gallery'
 					heading='BILDGALLERI'
-					subheading='Kolla grejjer'
+					subheading='Foton på utrustning, projektarbete, anställda mm.'
 					align='left'
 				>
 					<ImageGallery />
