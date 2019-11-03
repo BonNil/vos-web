@@ -1,26 +1,42 @@
 [
 	{
-		"name": "Maskin X",
+		"name": "CAT D6T LGP-V-PAT Steg 4",
 		"modelYear": "2000"
 	},
 	{
-		"name": "Maskin Y",
+		"name": "CAT D6T LGP-V-PAT Steg 3A",
 		"modelYear": "2000"
 	},
 	{
-		"name": "Maskin Z",
+		"name": "CAT 910K",
+		"modelYear": "2000"
+	},
+	{
+		"name": "CASE CX300D",
 		"modelYear": "2010"
 	},
 	{
-		"name": "Maskin A",
+		"name": "CASE CX290B",
 		"modelYear": "2001"
 	},
 	{
-		"name": "Maskin B",
+		"name": "CASE 250D",
 		"modelYear": "2000"
 	},
 	{
-		"name": "Maskin C",
+		"name": "CASE 245D-SR",
+		"modelYear": "2019"
+	},
+	{
+		"name": "CASE CX75C-SR",
+		"modelYear": "2019"
+	},
+	{
+		"name": "VOLVO EWR150E",
+		"modelYear": "2019"
+	},
+	{
+		"name": "VOLVO FM11",
 		"modelYear": "2019"
 	}
 ]

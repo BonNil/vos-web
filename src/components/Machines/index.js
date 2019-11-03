@@ -16,7 +16,7 @@ export default function Machines(props) {
 
 		return (
 			<div
-				className='machineWrapper col-md-6 col-sm-6 col-12'
+				className='machineWrapper mx-auto col-md-6 col-sm-6 col-12'
 				key={`machine-${i}`}
 			>
 				<div className='machineCard'>
