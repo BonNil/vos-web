@@ -5,7 +5,8 @@ import bjorn from '../../assets/images/employees/bjorn.jpg';
 import fredrik from '../../assets/images/employees/fredrik.jpg';
 import dan from '../../assets/images/employees/Dan_Nilsson.jpg';
 import noah from '../../assets/images/employees/Noah_Edensten.jpg';
-import jorgen from '../../assets/images/employees/Jorgen_Goransson.jpg';
+import jorgen from '../../assets/images/employees/jorgen.jpg';
+import elias from '../../assets/images/employees/elias.jpg';
 
 export default [
 	{ name: 'Robert Nilsson', url: robban },
@@ -16,4 +17,5 @@ export default [
 	{ name: 'Dan Nilsson', url: dan },
 	{ name: 'Noah Edensten', url: noah },
 	{ name: 'Jörgen Göransson', url: jorgen },
+	{ name: 'Elias Nilsson', url: elias },
 ];

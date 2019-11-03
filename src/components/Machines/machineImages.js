@@ -10,7 +10,7 @@ import volvoEwr150e from '../../assets/images/machines/VOLVO_EWR150E.jpg';
 import volvoFm11 from '../../assets/images/machines/VOLVO_FM11.jpg';
 
 export default [
-	{ name: 'CAT D6T LGP-V-PAT Steg 4"', url: catD6tSteg4 },
+	{ name: 'CAT D6T LGP-V-PAT Steg 4', url: catD6tSteg4 },
 	{ name: 'CAT D6T LGP-V-PAT Steg 3A', url: catD6tSteg3 },
 	{ name: 'CAT 910K', url: cat910 },
 	{ name: 'CASE CX300D', url: caseCx300d },

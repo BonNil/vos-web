@@ -10,19 +10,24 @@
 		"started": "2000"
 	},
 	{
-		"name": "Fredrik Asplund",
-		"role": "Grävmaskinist",
-		"started": "2010"
+		"name": "Björn Nilsson",
+		"role": "Maskinist",
+		"started": "2002"
 	},
 	{
 		"name": "Johan Nilsson",
 		"role": "Grävmaskinist",
-		"started": "2001"
+		"started": "2006"
 	},
 	{
-		"name": "Björn Nilsson",
+		"name": "Fredrik Asplund",
+		"role": "Grävmaskinist",
+		"started": "2012"
+	},
+	{
+		"name": "Elias Nilsson",
 		"role": "Maskinist",
-		"started": "2000"
+		"started": "2017"
 	},
 	{
 		"name": "Jörgen Göransson",

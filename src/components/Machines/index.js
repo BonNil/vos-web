@@ -27,7 +27,7 @@ export default function Machines(props) {
 					<div className='info'>
 						<label>{machine.name}</label>
 						<div className='modelYear'>Årsmodell {machine.modelYear}</div>
-						<div className='role'>Caterpillar</div>
+						<div className='role'>{machine.brand}</div>
 					</div>
 				</div>
 			</div>
