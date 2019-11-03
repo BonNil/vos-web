@@ -26,7 +26,7 @@ export default function Employees(props) {
 					</div>
 					<div className='info'>
 						<label>{employee.name}</label>
-						<div className='started'>Anställd {employee.started}</div>
+						<div className='started'>{employee.started}</div>
 						<div className='role'>{employee.role}</div>
 					</div>
 				</div>
