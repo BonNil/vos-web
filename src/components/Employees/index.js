@@ -16,7 +16,7 @@ export default function Employees(props) {
 
 		return (
 			<div
-				className='employeeWrapper col-md-3 col-sm-6 col-12'
+				className='employeeWrapper mx-auto col-md-3 col-sm-6 col-12'
 				key={`employee-${i}`}
 			>
 				<div className='employeeCard'>
