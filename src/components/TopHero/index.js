@@ -9,6 +9,7 @@ export default function TopHero(props) {
 			style={{
 				background: `url(${props.image}) no-repeat`,
 				backgroundSize: 'cover',
+				backgroundPosition: 'center',
 			}}
 		>
 			<div className='text-wrap'>

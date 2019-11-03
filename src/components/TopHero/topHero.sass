@@ -1,3 +1,4 @@
+@import '../../breakpoints.sass'
 
 .topHero
 	width: 100%
@@ -6,6 +7,7 @@
 	justify-content: center
 	min-height: 30em
 	direction: ltr
+	background-position: center
 
 	.text-wrap
 		margin-top: auto
@@ -16,3 +18,10 @@
 			margin-left: 40px
 			text-transform: uppercase
 			color: white
+			word-wrap: break-word
+
+@media (max-width: $bp-small)
+	.topHero
+		.text-wrap
+			h1
+				font-size: xx-large

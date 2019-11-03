@@ -29,7 +29,7 @@ function App() {
 					subheading='Väg & schakt maskiner: The story'
 					align='left'
 				>
-					<div className='paragraph'>
+					<div className='col-md-12 paragraph'>
 						{aboutParagraphs.map(paragraph => (
 							<p>{paragraph}</p>
 						))}
@@ -55,13 +55,6 @@ function App() {
 				</Section>
 				<Section
 					darkMode={false}
-					id='projects'
-					heading='PROJEKT'
-					subheading='Stort som smått: Vi gör det mesta inom schakt och gräv.'
-					align='right'
-				></Section>
-				<Section
-					darkMode={true}
 					id='gallery'
 					heading='BILDGALLERI'
 					subheading='Kolla grejjer'
@@ -69,6 +62,13 @@ function App() {
 				>
 					<ImageGallery />
 				</Section>
+				<Section
+					darkMode={true}
+					id='projects'
+					heading='PROJEKT'
+					subheading='Stort som smått: Vi gör det mesta inom schakt och gräv.'
+					align='right'
+				></Section>
 				<Footer />
 			</StickyContainer>
 		</div>

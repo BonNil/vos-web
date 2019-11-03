@@ -22,7 +22,10 @@ export default function Section(props) {
 				style={{ background: color.background }}
 			>
 				<div className='innerContainer container'>
-					<div className='headingWrapper' style={{ textAlign: props.align }}>
+					<div
+						className='headingWrapper col-md-12'
+						style={{ textAlign: props.align }}
+					>
 						<h2 className='sectionHeading' style={{ color: color.heading }}>
 							{props.heading}
 						</h2>

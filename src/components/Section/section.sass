@@ -1,4 +1,5 @@
 @import "../../colors.sass"
+@import "../../breakpoints.sass"
 
 .sectionWrapper
 	position: relative
@@ -13,6 +14,16 @@
 			margin-top: 0
 			font-size: 60px
 			margin-bottom: 0
+			word-wrap: break-word
+
 		.sectionSubheading
 			margin-top: 0
 			font-size: 20px
+			word-wrap: break-word
+
+@media (max-width: $bp-small)
+	.sectionWrapper
+		.headingWrapper
+			text-align: left !important
+			.sectionHeading
+				font-size: xx-large
