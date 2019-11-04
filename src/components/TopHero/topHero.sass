@@ -3,27 +3,30 @@
 .topHero
 	width: 100%
 	display: flex
-	align-items: baseline
+	align-items: flex-end
 	justify-content: center
 	min-height: 30em
 	direction: ltr
 	background-position: center
 
+
 	.text-wrap
 		margin-top: auto
 		width: 100%
-		font-size: 20px
 
 		h1
-			margin-left: 40px
 			text-shadow: 2px 2px 8px black
 			text-transform: uppercase
 			color: white
 			word-wrap: break-word
+			font-size: 40px
 
 @media (min-width: $bp-extra-large )
 	.topHero
 		min-height: 45em
+		.text-wrap
+			h1
+				font-size: 60px
 
 @media (min-width: $bp-monster )
 	.topHero
@@ -35,4 +38,4 @@
 		.text-wrap
 			h1
 				margin: 20px 30px
-				font-size: xx-large
+				font-size: x-large

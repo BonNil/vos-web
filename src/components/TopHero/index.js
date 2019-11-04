@@ -12,8 +12,10 @@ export default function TopHero(props) {
 				backgroundPosition: 'center',
 			}}
 		>
-			<div className='text-wrap'>
-				<h1>VÄG- & Schaktmaskiner AB</h1>
+			<div className="container">
+				<div className='col-12 text-wrap'>
+					<h1>VÄG- & Schaktmaskiner AB</h1>
+				</div>
 			</div>
 		</div>
 	);

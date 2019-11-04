@@ -58,7 +58,7 @@ function App() {
 					id='gallery'
 					heading='BILDGALLERI'
 					subheading='Foton på utrustning, projektarbete, anställda mm.'
-					align='left'
+					align='right'
 				>
 					<ImageGallery />
 				</Section>
@@ -67,7 +67,7 @@ function App() {
 					id='projects'
 					heading='PROJEKT'
 					subheading='Stort som smått: Vi gör det mesta inom schakt och gräv.'
-					align='right'
+					align='left'
 				></Section>
 				<Footer />
 			</StickyContainer>
