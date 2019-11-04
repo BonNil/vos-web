@@ -1,0 +1,27 @@
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMobileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import './contact.sass';
+
+export default function Intro(props) {
+	return (
+		<div className='contact container'>
+			<div className='row'>
+				<div className='col-sm-6 col-12'>
+					<a href='tel:0705868553'>
+						<FontAwesomeIcon size='4x' icon={faMobileAlt} />
+					</a>
+					<a href='tel:0705868553'>070-58 68 553</a>
+				</div>
+				<div className='col-sm-6 col-12'>
+					<a href='mailto:vagoschaktmaskinerab@telia.com'>
+						<FontAwesomeIcon size='4x' icon={faEnvelope} />
+					</a>
+					<a href='mailto:vagoschaktmaskinerab@telia.com'>
+						vagoschaktmaskinerab@telia.com
+					</a>
+				</div>
+			</div>
+		</div>
+	);
+}

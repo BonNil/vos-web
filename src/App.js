@@ -2,15 +2,16 @@ import React from 'react';
 import './App.sass';
 import 'bootstrap-4-grid';
 import TopHero from './components/TopHero';
+import Intro from './components/Intro';
 import AnchorBar from './components/AnchorBar';
 import Section from './components/Section';
 import Employees from './components/Employees';
 import Machines from './components/Machines';
 import ImageGallery from './components/Gallery';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { StickyContainer, Sticky } from 'react-sticky';
 import background from './assets/images/hero_1920.jpg';
-import aboutParagraphs from './assets/content/about.json';
 
 function App() {
 	return (
@@ -23,26 +24,13 @@ function App() {
 					)}
 				</Sticky>
 				<Section
-					darkMode={true}
+					darkMode={false}
 					id='about'
 					heading='OM OSS'
 					subheading='Och vad vi kan göra för dig'
 					align='left'
 				>
-					<div className='col-md-12 paragraph'>
-						{aboutParagraphs.map(paragraph => (
-							<p>{paragraph}</p>
-						))}
-					</div>
-				</Section>
-				<Section
-					darkMode={false}
-					id='employees'
-					heading='ANSTÄLLDA'
-					subheading='Vår viktigaste resurs'
-					align='right'
-				>
-					<Employees />
+					<Intro />
 				</Section>
 				<Section
 					darkMode={true}
@@ -55,20 +43,31 @@ function App() {
 				</Section>
 				<Section
 					darkMode={false}
-					id='gallery'
-					heading='BILDGALLERI'
-					subheading='Foton på utrustning, projektarbete, anställda mm.'
-					align='right'
+					id='employees'
+					heading='ANSTÄLLDA'
+					subheading='Vår viktigaste resurs'
+					align='left'
 				>
-					<ImageGallery />
+					<Employees />
 				</Section>
 				<Section
 					darkMode={true}
-					id='projects'
-					heading='PROJEKT'
-					subheading='Stort som smått: Vi gör det mesta inom schakt och gräv.'
+					id='contact'
+					heading='KONTAKT'
+					subheading='Hör av dig till oss med ditt projekt'
 					align='left'
-				></Section>
+				>
+					<Contact />
+				</Section>
+				<Section
+					darkMode={false}
+					id='gallery'
+					heading='BILDGALLERI'
+					subheading='Foton på utrustning, projektarbete, anställda mm.'
+					align='left'
+				>
+					<ImageGallery />
+				</Section>
 				<Footer />
 			</StickyContainer>
 		</div>

@@ -1,15 +1,15 @@
 import React from 'react';
+import { isMobile } from 'react-device-detect';
 import './anchorBar.sass';
 
 export default class AnchorBar extends React.Component {
 	render = () => {
 		var things = [
 			{ title: 'OM OSS', anchor: '#about' },
-			{ title: 'ANSTÄLLDA', anchor: '#employees' },
 			{ title: 'MASKINER', anchor: '#machines' },
-			{ title: 'BILDER', anchor: '#gallery' },
-			{ title: 'PROJEKT', anchor: '#projects' },
+			{ title: 'ANSTÄLLDA', anchor: '#employees' },
 			{ title: 'KONTAKT', anchor: '#contact' },
+			{ title: 'BILDER', anchor: '#gallery' },
 		];
 
 		var listItems = things.reverse().map((item, i) => (
