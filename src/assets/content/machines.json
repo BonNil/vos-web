@@ -2,51 +2,147 @@
 	{
 		"name": "CAT D6T LGP-V-PAT Steg 4",
 		"modelYear": "2015",
-		"brand": "Caterpillar"
+		"ecoClass": "Steg 4",
+		"brand": "Caterpillar",
+		"driver": "Björn Nilsson",
+		"equipment": []
 	},
 	{
 		"name": "CAT D6T LGP-V-PAT Steg 3A",
 		"modelYear": "2007",
-		"brand": "Caterpillar"
+		"ecoClass": "Steg 3A",
+		"brand": "Caterpillar",
+		"driver": "Robert Nilsson",
+		"equipment": []
 	},
 	{
 		"name": "CAT 910K",
 		"modelYear": "2015",
-		"brand": "Caterpillar"
+		"ecoClass": "Steg 3B",
+		"brand": "Caterpillar",
+		"driver": "Varierar",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Bred skopa m. tänder",
+			"Asfaltstrissor"
+		]
 	},
 	{
 		"name": "CASE CX300D",
 		"modelYear": "2017",
-		"brand": "Case"
+		"ecoClass": "Steg 4",
+		"brand": "Case",
+		"driver": "Johan Nilsson",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Bred skopa m. tänder",
+			"Asfaltstrissor",
+			"3.2 tons hydraulhammare"
+		]
 	},
 	{
 		"name": "CASE CX290B",
 		"modelYear": "2008",
-		"brand": "Case"
+		"ecoClass": "Steg 3A",
+		"brand": "Case",
+		"driver": "Varierar",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Bred skopa m. tänder",
+			"Asfaltstrissor",
+			"3.2 tons hydraulhammare"
+		]
 	},
 	{
 		"name": "CASE 250D",
 		"modelYear": "2016",
-		"brand": "Case"
+		"ecoClass": "Steg 4",
+		"brand": "Case",
+		"driver": "Elias Nilsson",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Bred skopa m. tänder",
+			"Asfaltstrissor",
+			"3.2 tons hydraulhammare"
+		]
 	},
 	{
 		"name": "CASE 245D-SR",
 		"modelYear": "2019",
-		"brand": "Case"
+		"ecoClass": "Steg 4",
+		"brand": "Case",
+		"driver": "Dan Nilsson",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Bred skopa m. tänder",
+			"Asfaltstrissor",
+			"3.2 tons hydraulhammare"
+		]
 	},
 	{
 		"name": "CASE CX75C-SR",
 		"modelYear": "2015",
-		"brand": "Case"
+		"ecoClass": "Steg 3B",
+		"brand": "Case",
+		"driver": "Noah Edensten",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Bred skopa m. tänder",
+			"Asfaltstrissor"
+		]
 	},
 	{
 		"name": "VOLVO EWR150E",
 		"modelYear": "2017",
-		"brand": "Volvo"
+		"ecoClass": "Steg 4",
+		"brand": "Volvo",
+		"driver": "Fredrik Asplund",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bred skopa m. tänder",
+			"Asfaltstrissor"
+		]
 	},
 	{
 		"name": "VOLVO FM11",
 		"modelYear": "2014",
-		"brand": "Volvo"
+		"ecoClass": "Euro 5",
+		"brand": "Volvo",
+		"driver": "Jörgen Göransson",
+		"equipment": []
 	}
 ]

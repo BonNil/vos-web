@@ -20,14 +20,23 @@ export default function Machines(props) {
 				key={`machine-${i}`}
 			>
 				<div className='machineCard'>
-					<div>
-						<img className='portrait' src={result[0].url}></img>
-						<div className='colorOverlay'></div>
-					</div>
-					<div className='info'>
-						<label>{machine.name}</label>
-						<div className='modelYear'>Årsmodell {machine.modelYear}</div>
-						<div className='role'>{machine.brand}</div>
+					<div className='card-inner'>
+						<div className='image'>
+							<img className='portrait' src={result[0].url}></img>
+							<div className='hover-overlay'>
+								<span>TILLBEHÖR</span>
+								<ul>
+									{machine.equipment.map((value, index) => {
+										return <li key={`equip-${index}`}>- {value}</li>;
+									})}
+								</ul>
+							</div>
+						</div>
+						<div className='info'>
+							<label>{machine.name}</label>
+							<div className='modelYear'>Förare: {machine.driver}</div>
+							<div className='role'>{machine.ecoClass}</div>
+						</div>
 					</div>
 				</div>
 			</div>
