@@ -36,7 +36,7 @@ function App() {
 					darkMode={true}
 					id='machines'
 					heading='MASKINER'
-					subheading='Toppmoderna och väl underhållna'
+					subheading='Moderna, utrustade och väl underhållna'
 					align='left'
 				>
 					<Machines />

@@ -36,8 +36,8 @@ export default function Intro(props) {
 					<div className='project col-sm-6 col-12'>
 						<FontAwesomeIcon size='5x' icon={faRoad} />
 						<p>
-							Schakt och gräv för vägarbeten, stora som små. Vi har
-							framgångsrikt utfört denna typ av arbete i alla dess former.
+							Vägarbeten i alla dess former, stora som små. Vi har
+							framgångsrikt utfört denna typ av arbete i många år.
 						</p>
 					</div>
 					<div className='project col-sm-6 col-12'>
@@ -50,8 +50,8 @@ export default function Intro(props) {
 					<div className='project col-sm-6 col-12'>
 						<FontAwesomeIcon size='5x' icon={faBuilding} />
 						<p>
-							Schakt- och planeringsarbete för byggprojekt brinner vi för, och
-							är också en av våra starkaste grenar.
+							Schakt- och planeringsarbete för byggprojekt är vårt levebröd, och
+							därför också ett område vi har extensiv kunskap inom.
 						</p>
 					</div>
 				</div>
