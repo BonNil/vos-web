@@ -34,12 +34,12 @@ function App() {
 				</Section>
 				<Section
 					darkMode={true}
-					id='machines'
-					heading='MASKINER'
-					subheading='Moderna, utrustade och väl underhållna'
-					align='left'
+					id='contact'
+					heading='KONTAKT'
+					subheading='Hör av dig till oss med ditt projekt'
+					align='center'
 				>
-					<Machines />
+					<Contact />
 				</Section>
 				<Section
 					darkMode={false}
@@ -52,12 +52,12 @@ function App() {
 				</Section>
 				<Section
 					darkMode={true}
-					id='contact'
-					heading='KONTAKT'
-					subheading='Hör av dig till oss med ditt projekt'
+					id='machines'
+					heading='MASKINER'
+					subheading='Moderna, utrustade och väl underhållna'
 					align='left'
 				>
-					<Contact />
+					<Machines />
 				</Section>
 				<Section
 					darkMode={false}
