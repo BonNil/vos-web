@@ -1,5 +1,4 @@
 import React from 'react';
-import { isMobile } from 'react-device-detect';
 import './anchorBar.sass';
 
 export default class AnchorBar extends React.Component {
