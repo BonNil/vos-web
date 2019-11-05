@@ -7,13 +7,13 @@ export default function Intro(props) {
 	return (
 		<div className='contact container'>
 			<div className='row'>
-				<div className='col-sm-6 col-12'>
+				<div className='contact-item col-sm-6 col-12'>
 					<a href='tel:0705868553'>
 						<FontAwesomeIcon size='4x' icon={faMobileAlt} />
 					</a>
 					<a href='tel:0705868553'>070-58 68 553</a>
 				</div>
-				<div className='col-sm-6 col-12'>
+				<div className='contact-item col-sm-6 col-12'>
 					<a href='mailto:vagoschaktmaskinerab@telia.com'>
 						<FontAwesomeIcon size='4x' icon={faEnvelope} />
 					</a>
