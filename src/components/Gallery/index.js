@@ -23,7 +23,7 @@ export default function ImageGallery() {
 			<Gallery photos={photos} onClick={openLightbox} direction={'column'} />
 			<ModalGateway>
 				{viewerIsOpen ? (
-					<Modal onClose={closeLightbox}>
+					<Modal onClose={closeLightbox} allowFullscreen={false}>
 						<Carousel
 							currentIndex={currentImage}
 							views={photos.map(x => ({
