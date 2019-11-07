@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9274b8f33897a375e769798fd1497ea3",
+    "revision": "d0c35eed8e455c2de4a86a01da4e91c5",
     "url": "/vos-web/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vos-web/static/css/2.910f75eb.chunk.css"
   },
   {
-    "revision": "9f71e0bef080c9067d28",
-    "url": "/vos-web/static/css/main.d4bdc0df.chunk.css"
+    "revision": "8fb265023dd63b19ca08",
+    "url": "/vos-web/static/css/main.e86b968d.chunk.css"
   },
   {
     "revision": "3d2152532a862a13527d",
     "url": "/vos-web/static/js/2.f4986e80.chunk.js"
   },
   {
-    "revision": "9f71e0bef080c9067d28",
+    "revision": "8fb265023dd63b19ca08",
     "url": "/vos-web/static/js/main.bea115c3.chunk.js"
   },
   {
