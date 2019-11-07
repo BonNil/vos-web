@@ -1,4 +1,5 @@
 @import "../../colors.sass"
+@import "../../breakpoints.sass"
 
 .machines
 	margin-top: 40px
@@ -78,6 +79,15 @@
 						-webkit-columns: 2
 						-moz-columns: 2
 						list-style-type: disc
+
+@media (max-width: $bp-medium)
+	.machines
+		.machineCard
+			.card-inner
+				.info
+					.equipment
+						ul
+							columns: 1
 
 .darkMode .machines
 	color: $darkSlate
