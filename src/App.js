@@ -52,12 +52,30 @@ function App() {
 				</Section>
 				<Section
 					darkMode={true}
-					id='machines'
-					heading='MASKINER'
+					id='excavators'
+					heading='GRÄVMASKINER'
 					subheading='Moderna, utrustade och väl underhållna'
 					align='left'
 				>
-					<Machines />
+					<Machines type="excavator" />
+				</Section>
+				<Section
+					darkMode={false}
+					id='bulldozers'
+					heading='BANDTRAKTORER'
+					subheading='Moderna, utrustade och väl underhållna'
+					align='left'
+				>
+					<Machines type="bulldozer" />
+				</Section>
+				<Section
+					darkMode={true}
+					id='misc-machines'
+					heading='ÖVRIGA MASKINER'
+					subheading='Moderna, utrustade och väl underhållna'
+					align='left'
+				>
+					<Machines type="misc" />
 				</Section>
 				<Section
 					darkMode={false}

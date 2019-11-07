@@ -9,33 +9,42 @@ export default function Machines(props) {
 	var machineCards = machinesJson.map((machine, i) => {
 		console.log(machine.name);
 		const result = images.filter(
-			image => image.name.toLowerCase() === machine.name.toLowerCase()
+			image =>
+				image.name.toLowerCase() === machine.name.toLowerCase() &&
+				machine.type === props.type
 		);
 		console.log(result);
 		if (!result[0]) return null;
 
 		return (
 			<div
-				className='machineWrapper mx-auto col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12'
+				className='machineWrapper mx-auto col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12'
 				key={`machine-${i}`}
 			>
 				<div className='machineCard'>
 					<div className='card-inner'>
 						<div className='image'>
 							<img className='portrait' src={result[0].url}></img>
-							<div className='hover-overlay'>
+							{/* <div className='hover-overlay'>
 								<span>TILLBEHÖR</span>
 								<ul>
 									{machine.equipment.map((value, index) => {
 										return <li key={`equip-${index}`}>- {value}</li>;
 									})}
 								</ul>
-							</div>
+							</div> */}
 						</div>
 						<div className='info'>
 							<label>{machine.name}</label>
-							<div className='modelYear'>Förare: {machine.driver}</div>
-							<div className='role'>{machine.ecoClass}</div>
+							<div className='modelYear'>Miljöklass: {machine.ecoClass}</div>
+							<div className='equipment'>
+								<ul>
+									{machine.equipment.map((value, index) => {
+										return <li key={`equip-${index}`}>{value}</li>;
+									})}
+								</ul>
+							</div>
+							<div className='role'>{machine.driver}</div>
 						</div>
 					</div>
 				</div>
