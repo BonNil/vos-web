@@ -57,25 +57,25 @@ function App() {
 					subheading='Moderna, utrustade och väl underhållna'
 					align='left'
 				>
-					<Machines type="excavator" />
+					<Machines type='excavator' />
 				</Section>
 				<Section
 					darkMode={false}
 					id='bulldozers'
 					heading='BANDTRAKTORER'
-					subheading='Moderna, utrustade och väl underhållna'
+					subheading='Stora maskiner, stora blad, stora resultat'
 					align='left'
 				>
-					<Machines type="bulldozer" />
+					<Machines type='bulldozer' />
 				</Section>
 				<Section
 					darkMode={true}
 					id='misc-machines'
 					heading='ÖVRIGA MASKINER'
-					subheading='Moderna, utrustade och väl underhållna'
+					subheading=''
 					align='left'
 				>
-					<Machines type="misc" />
+					<Machines type='misc' />
 				</Section>
 				<Section
 					darkMode={false}

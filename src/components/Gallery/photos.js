@@ -6,10 +6,9 @@ import e from '../../assets/images/gallery/IMG_7594.jpg';
 import f from '../../assets/images/gallery/IMG_7595.jpg';
 import g from '../../assets/images/gallery/IMG_7596.jpg';
 import h from '../../assets/images/gallery/IMG_7597.jpg';
-import i from '../../assets/images/gallery/IMG_7598.jpg';
-import j from '../../assets/images/gallery/IMG_7599.jpg';
+import i from '../../assets/images/gallery/IMG_7599.jpg';
 
-var images = [a, b, c, d, e, f, g, h, i, j];
+var images = [a, b, c, d, e, f, g, h, i];
 
 var randomizedImages = [];
 images.forEach(image => {
