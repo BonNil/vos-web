@@ -1,6 +1,5 @@
 {
 	"name": "vos-web",
-	"homepage": "http://bonnil.github.io/vos-web",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
