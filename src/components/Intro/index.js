@@ -13,8 +13,8 @@ export default function Intro(props) {
 	return (
 		<div className='intro'>
 			<div className='col-md-12 paragraph'>
-				{aboutParagraphs.map(paragraph => (
-					<p>{paragraph}</p>
+				{aboutParagraphs.map((paragraph, i) => (
+					<p key={`p-${i}`}>{paragraph}</p>
 				))}
 				<p>
 					<b>
@@ -36,8 +36,8 @@ export default function Intro(props) {
 					<div className='project col-sm-6 col-12'>
 						<FontAwesomeIcon size='5x' icon={faRoad} />
 						<p>
-							Vägarbeten i alla dess former, stora som små. Vi har
-							framgångsrikt utfört denna typ av arbete i många år.
+							Vägarbeten i alla dess former, stora som små. Vi har framgångsrikt
+							utfört denna typ av arbete i många år.
 						</p>
 					</div>
 					<div className='project col-sm-6 col-12'>

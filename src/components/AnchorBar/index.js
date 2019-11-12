@@ -1,9 +1,12 @@
 import React from 'react';
+import MediaQuery from 'react-responsive';
+import MobileNav from './mobileNav';
+
 import './anchorBar.sass';
 
 export default class AnchorBar extends React.Component {
 	render = () => {
-		var things = [
+		const things = [
 			{ title: 'OM OSS', anchor: '#about' },
 			{ title: 'KONTAKT', anchor: '#contact' },
 			{ title: 'ANSTÄLLDA', anchor: '#employees' },
@@ -13,8 +16,8 @@ export default class AnchorBar extends React.Component {
 			{ title: 'BILDER', anchor: '#gallery' },
 		];
 
-		var listItems = things.reverse().map((item, i) => (
-			<React.Fragment key={`anchorItem_${i}`}>
+		const desktopItems = things.reverse().map((item, i) => (
+			<React.Fragment key={`desktopItem_${i}`}>
 				<li className='anchorItem'>
 					<a href={item.anchor}>{item.title}</a>
 				</li>
@@ -27,7 +30,12 @@ export default class AnchorBar extends React.Component {
 				className={this.props.isSticky ? 'anchorBar sticky' : 'anchorBar'}
 				style={this.props.style}
 			>
-				<ul className='anchorList'>{listItems}</ul>
+				<MediaQuery maxWidth={768}>
+					<MobileNav items={things} />
+				</MediaQuery>
+				<MediaQuery minWidth={769}>
+					<ul className='anchorList'>{desktopItems}</ul>
+				</MediaQuery>
 			</div>
 		);
 	};

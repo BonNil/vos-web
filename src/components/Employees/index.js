@@ -4,14 +4,10 @@ import './employees.sass';
 import images from './employeeImages';
 
 export default function Employees(props) {
-	console.log(employeesJson);
-
 	var employeeCards = employeesJson.map((employee, i) => {
-		console.log(employee.name);
 		const result = images.filter(
 			image => image.name.toLowerCase() === employee.name.toLowerCase()
 		);
-		console.log(result);
 		if (!result[0]) return null;
 
 		return (

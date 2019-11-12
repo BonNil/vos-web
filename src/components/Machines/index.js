@@ -4,16 +4,12 @@ import './machines.sass';
 import images from './machineImages';
 
 export default function Machines(props) {
-	console.log(machinesJson);
-
 	var machineCards = machinesJson.map((machine, i) => {
-		console.log(machine.name);
 		const result = images.filter(
 			image =>
 				image.name.toLowerCase() === machine.name.toLowerCase() &&
 				machine.type === props.type
 		);
-		console.log(result);
 		if (!result[0]) return null;
 
 		return (
