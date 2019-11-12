@@ -6,10 +6,7 @@
 		"ecoClass": "Steg 4",
 		"brand": "Caterpillar",
 		"driver": "Björn Nilsson",
-		"equipment": [
-			"Rivare",
-			"6-vägsblad"
-		]
+		"equipment": ["Rivare", "6-vägsblad"]
 	},
 	{
 		"name": "CAT D6T LGP-V-PAT Steg 3A",
@@ -18,10 +15,7 @@
 		"ecoClass": "Steg 3A",
 		"brand": "Caterpillar",
 		"driver": "Robert Nilsson",
-		"equipment": [
-			"Rivare",
-			"6-vägsblad"
-		]
+		"equipment": ["Rivare", "6-vägsblad"]
 	},
 	{
 		"name": "CASE CX300D",
@@ -158,7 +152,8 @@
 		"driver": "Jörgen Göransson",
 		"equipment": [
 			"Kran",
-			"Kranskopa"
+			"Kranskopa",
+			"Boggie-jigg - 30 000 kg total vikt (bil + släp)"
 		]
 	}
 ]
