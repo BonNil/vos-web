@@ -38,5 +38,20 @@
 		"name": "Dan Nilsson",
 		"role": "Grävmaskinist",
 		"started": "Anställd 2019"
+	},
+	{
+		"name": "Anton Trulsson",
+		"role": "Hjulgrävarmaskinist",
+		"started": "Anställd 2020"
+	},
+	{
+		"name": "Johan Espenkrona",
+		"role": "Anläggare / Lastbilschaufför",
+		"started": "Anställd 2020"
+	},
+	{
+		"name": "Edvin Andersson",
+		"role": "Grävmaskinist",
+		"started": "Anställd 2020"
 	}
 ]
