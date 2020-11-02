@@ -11,7 +11,7 @@ import ImageGallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { StickyContainer, Sticky } from 'react-sticky';
-import background from './assets/images/hero_1920.jpg';
+import background from './assets/images/hero.webp';
 
 function App() {
 	return (
