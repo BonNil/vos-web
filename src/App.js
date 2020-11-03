@@ -12,11 +12,12 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { StickyContainer, Sticky } from 'react-sticky';
 import background from './assets/images/hero.webp';
+import mobileBg from './assets/images/mobile_hero_768.webp';
 
 function App() {
 	return (
 		<div className='App'>
-			<TopHero image={background} />
+			<TopHero image={background} mobileImage={mobileBg} />
 			<StickyContainer>
 				<Sticky>
 					{({ style, isSticky }) => (
