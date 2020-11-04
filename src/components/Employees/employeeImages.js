@@ -1,14 +1,14 @@
 import robban from '../../assets/images/employees/robban.webp';
-import lill from '../../assets/images/employees/lill.webp';
-import johan from '../../assets/images/employees/Johan_Nilsson.webp';
-import bjorn from '../../assets/images/employees/bjorn.webp';
-import fredrik from '../../assets/images/employees/fredrik.webp';
-import dan from '../../assets/images/employees/Dan_Nilsson.webp';
-import jorgen from '../../assets/images/employees/jorgen.webp';
-import elias from '../../assets/images/employees/elias.webp';
-import johanEspenkrona from '../../assets/images/employees/johan_espenkrona.webp';
-import edvin from '../../assets/images/employees/edvin_andersson.webp';
-import anton from '../../assets/images/employees/anton_trulsson.webp';
+import lill from '../../assets/images/employees/lill_350.webp';
+import johan from '../../assets/images/employees/johan_n_350.webp';
+import bjorn from '../../assets/images/employees/bjorn_350.webp';
+import fredrik from '../../assets/images/employees/fredrik_350.webp';
+import dan from '../../assets/images/employees/dan_350.webp';
+import jorgen from '../../assets/images/employees/jorgen_350.webp';
+import elias from '../../assets/images/employees/elias_350.webp';
+import johanEspenkrona from '../../assets/images/employees/johan_e_350.webp';
+import edvin from '../../assets/images/employees/edvin_350.webp';
+import anton from '../../assets/images/employees/anton_350.webp';
 
 export default [
 	{ name: 'Robert Nilsson', url: robban },
