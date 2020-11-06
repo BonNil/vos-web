@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import './section.sass';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
@@ -36,7 +36,7 @@ export default function Section(props) {
 							{props.subheading}
 						</h2>
 					</div>
-					{props.children}
+					<Suspense fallback={<p>Laddar...</p>}>{props.children}</Suspense>
 				</div>
 			</div>
 		</ScrollableAnchor>

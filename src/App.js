@@ -1,23 +1,26 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import './App.sass';
 import 'bootstrap-4-grid';
-import TopHero from './components/TopHero';
-import Intro from './components/Intro';
 import AnchorBar from './components/AnchorBar';
 import Section from './components/Section';
-import Employees from './components/Employees';
-import Machines from './components/Machines';
-import ImageGallery from './components/Gallery';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { StickyContainer, Sticky } from 'react-sticky';
 import background from './assets/images/hero.webp';
 import mobileBg from './assets/images/mobile_hero_768.webp';
 
+const TopHero = lazy(() => import('./components/TopHero'));
+const Intro = lazy(() => import('./components/Intro'));
+const Employees = lazy(() => import('./components/Employees'));
+const Machines = lazy(() => import('./components/Machines'));
+const ImageGallery = lazy(() => import('./components/Gallery'));
+const Contact = lazy(() => import('./components/Contact'));
+
 function App() {
 	return (
 		<div className='App'>
-			<TopHero image={background} mobileImage={mobileBg} />
+			<Suspense fallback={<p>Laddar...</p>}>
+				<TopHero image={background} mobileImage={mobileBg} />
+			</Suspense>
 			<StickyContainer>
 				<Sticky>
 					{({ style, isSticky }) => (
