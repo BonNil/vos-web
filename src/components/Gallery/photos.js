@@ -8,18 +8,19 @@ import g from '../../assets/images/gallery/IMG_7596.webp';
 import h from '../../assets/images/gallery/IMG_7597.webp';
 import i from '../../assets/images/gallery/IMG_7599.webp';
 
-var images = [a, b, c, d, e, f, g, h, i];
+var imageSrcs = [a, b, c, d, e, f, g, h, i];
 
-var randomizedImages = [];
-images.forEach(image => {
-	var width = Math.ceil(Math.random() * 2);
+var images = [];
+imageSrcs.forEach(image => {
+	var width = 2;
 	var height = 1;
 
-	randomizedImages.push({
+	images.push({
 		src: image,
 		width: width,
 		height: height,
+		original: image
 	});
 });
 
-export default randomizedImages;
+export default images;
