@@ -1,6 +1,7 @@
 import React, { lazy } from 'react';
 import './App.sass';
 import 'bootstrap-4-grid';
+import TopHero from './components/TopHero';
 import AnchorBar from './components/AnchorBar';
 import Section from './components/Section';
 import Footer from './components/Footer';
@@ -8,7 +9,6 @@ import { StickyContainer, Sticky } from 'react-sticky';
 import background from './assets/images/hero.webp';
 import mobileBg from './assets/images/mobile_hero_768.webp';
 
-const TopHero = lazy(() => import('./components/TopHero'));
 const Intro = lazy(() => import('./components/Intro'));
 const Employees = lazy(() => import('./components/Employees'));
 const Machines = lazy(() => import('./components/Machines'));
