@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import React, { lazy } from 'react';
 import './App.sass';
 import 'bootstrap-4-grid';
 import AnchorBar from './components/AnchorBar';
@@ -18,9 +18,7 @@ const Contact = lazy(() => import('./components/Contact'));
 function App() {
 	return (
 		<div className='App'>
-			<Suspense fallback={<p>Laddar...</p>}>
-				<TopHero image={background} mobileImage={mobileBg} />
-			</Suspense>
+			<TopHero image={background} mobileImage={mobileBg} />
 			<StickyContainer>
 				<Sticky>
 					{({ style, isSticky }) => (
