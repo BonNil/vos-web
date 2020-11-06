@@ -16,7 +16,7 @@ imageSrcs.forEach(image => {
 	var height = 1;
 
 	images.push({
-		src: image,
+		src: image + "?nf_resize=fit&w=341&h=171",
 		width: width,
 		height: height,
 		original: image
