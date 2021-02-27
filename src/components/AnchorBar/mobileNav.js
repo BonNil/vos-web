@@ -21,7 +21,7 @@ export default function MobileNav(props) {
 	));
 
 	return (
-		<div>
+		<div class="row">
 			<FontAwesomeIcon
 				size='2x'
 				icon={faBars}

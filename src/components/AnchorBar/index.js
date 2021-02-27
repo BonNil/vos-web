@@ -8,12 +8,12 @@ export default class AnchorBar extends React.Component {
 	render = () => {
 		const things = [
 			{ title: 'OM OSS', anchor: '#about' },
-			{ title: 'KONTAKT', anchor: '#contact' },
 			{ title: 'ANSTÄLLDA', anchor: '#employees' },
 			{ title: 'GRÄVMASKINER', anchor: '#excavators' },
 			{ title: 'BANDTRAKTORER', anchor: '#bulldozers' },
 			{ title: 'ÖVRIGA MASKINER', anchor: '#misc-machines' },
 			{ title: 'BILDER', anchor: '#gallery' },
+			{ title: 'KONTAKT', anchor: '#contact' },
 		];
 
 		const desktopItems = things.reverse().map((item, i) => (

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/images/original_logo.png';
+import logo from '../../assets/images/new_logo.webp';
 import './footer.sass';
 
 export default function Footer(props) {

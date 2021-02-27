@@ -5,7 +5,7 @@ import caseCx300d from '../../assets/images/machines/CASE_CX300D.webp';
 import doosanDx140w from '../../assets/images/machines/DOOSAN_DX140W.webp';
 import caseCx250d from '../../assets/images/machines/CASE_CX250D.webp';
 import caseCx245dsr from '../../assets/images/machines/CASE_CX245D-SR.webp';
-import caseCx75csr from '../../assets/images/machines/CASE_CX75C-SR.webp';
+import caseCx75csr from '../../assets/images/machines/CASE_CX75C.webp';
 import volvoEwr150e from '../../assets/images/machines/VOLVO_EWR150E.webp';
 import volvoFm11 from '../../assets/images/machines/VOLVO_FM11.webp';
 import humbaurTrailer from '../../assets/images/machines/HUMBAUR_MASKINSLAP.webp';

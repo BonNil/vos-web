@@ -44,25 +44,6 @@
 		]
 	},
 	{
-		"name": "Doosan DX140W",
-		"type": "excavator",
-		"modelYear": "2020",
-		"ecoClass": "Steg 5",
-		"brand": "Doosan",
-		"driver": "Anton Trulsson",
-		"equipment": [
-			"Grävskopa",
-			"VA-skopa",
-			"Smalskopa 80-50cm",
-			"Gafflar",
-			"Tjälkrok",
-			"Bergrensningsskopa",
-			"Bred skopa m. tänder",
-			"Asfaltstrissor",
-			"3.2 tons hydraulhammare"
-		]
-	},
-	{
 		"name": "CASE 250D",
 		"type": "excavator",
 		"modelYear": "2016",
@@ -118,7 +99,7 @@
 	},
 	{
 		"name": "VOLVO EWR150E",
-		"type": "excavator",
+		"type": "wheeledExcavator",
 		"modelYear": "2017",
 		"ecoClass": "Steg 4",
 		"brand": "Volvo",
@@ -130,7 +111,27 @@
 			"Gafflar",
 			"Tjälkrok",
 			"Bred skopa m. tänder",
-			"Asfaltstrissor"
+			"Asfaltstrissor",
+			"Planeringsbalk m. rulle"
+		]
+	},
+	{
+		"name": "Doosan DX140W",
+		"type": "wheeledExcavator",
+		"modelYear": "2020",
+		"ecoClass": "Steg 5",
+		"brand": "Doosan",
+		"driver": "Anton Trulsson",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Bred skopa m. tänder",
+			"Asfaltstrissor",
+			"Planeringsbalk m. rulle"
 		]
 	},
 	{

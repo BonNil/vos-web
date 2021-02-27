@@ -36,15 +36,6 @@ function App() {
 				</Section>
 				<Section
 					darkMode={true}
-					id='contact'
-					heading='KONTAKT'
-					subheading='Hör av dig till oss med ditt projekt'
-					align='center'
-				>
-					<Contact />
-				</Section>
-				<Section
-					darkMode={false}
 					id='employees'
 					heading='ANSTÄLLDA'
 					subheading='Vår viktigaste resurs'
@@ -53,13 +44,22 @@ function App() {
 					<Employees />
 				</Section>
 				<Section
-					darkMode={true}
+					darkMode={false}
 					id='excavators'
 					heading='GRÄVMASKINER'
 					subheading='Moderna, utrustade och väl underhållna'
 					align='left'
 				>
 					<Machines type='excavator' />
+				</Section>
+				<Section
+					darkMode={true}
+					id='wheeledExcavators'
+					heading='HJULGRÄVARE'
+					subheading='Moderna, utrustade och väl underhållna'
+					align='left'
+				>
+					<Machines type='wheeledExcavator' />
 				</Section>
 				<Section
 					darkMode={false}
@@ -87,6 +87,15 @@ function App() {
 					align='left'
 				>
 					<ImageGallery />
+				</Section>
+				<Section
+					darkMode={true}
+					id='contact'
+					heading='KONTAKT'
+					subheading='Hör av dig till oss med ditt projekt'
+					align='center'
+				>
+					<Contact />
 				</Section>
 				<Footer />
 			</StickyContainer>
