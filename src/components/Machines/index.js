@@ -32,7 +32,7 @@ export default function Machines(props) {
 						</div>
 						<div className='info'>
 							<label>{machine.name}</label>
-							<div className='modelYear'>Miljöklass: {machine.ecoClass}</div>
+							{machine.ecoClass && <div className='modelYear'>Miljöklass: {machine.ecoClass}</div>}
 							<div className='equipment'>
 								<ul>
 									{machine.equipment.map((value, index) => {

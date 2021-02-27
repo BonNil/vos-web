@@ -6,6 +6,7 @@ import {
 	faRoad,
 	faWater,
 	faBuilding,
+	faTruckMoving
 } from '@fortawesome/free-solid-svg-icons';
 import './intro.sass';
 
@@ -43,15 +44,22 @@ export default function Intro(props) {
 					<div className='project col-sm-6 col-12'>
 						<FontAwesomeIcon size='5x' icon={faWater} />
 						<p>
-							Dammar och vattenanläggningar har vi stark kompetens inom, och har
+							Dammar och vattenanläggningar har vi stark kompetens inom och har
 							många projekt av denna typ i ryggen.
 						</p>
 					</div>
 					<div className='project col-sm-6 col-12'>
 						<FontAwesomeIcon size='5x' icon={faBuilding} />
 						<p>
-							Schakt- och planeringsarbete för byggprojekt är vårt levebröd, och
+							Schakt- och planeringsarbete för byggprojekt är vårt levebröd och
 							därför också ett område vi har extensiv kunskap inom.
+						</p>
+					</div>
+					<div className='project col-sm-6 col-12'>
+						<FontAwesomeIcon size='5x' icon={faTruckMoving} />
+						<p>
+							Vi innehar trafiktillstånd och utför maskintransporter åt våra kunder.
+							Utöver detta transporterar vi även fyllnadsmaterial som schaktmassor och grus.
 						</p>
 					</div>
 				</div>

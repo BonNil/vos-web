@@ -1,21 +1,29 @@
 [
 	{
-		"name": "CAT D6T LGP-V-PAT Steg 4",
+		"name": "CAT D6T LGP-V-PAT",
 		"type": "bulldozer",
 		"modelYear": "2015",
 		"ecoClass": "Steg 4",
 		"brand": "Caterpillar",
-		"driver": "Björn Nilsson",
-		"equipment": ["Rivare", "6-vägsblad"]
+		"driver": "Robert Nilsson",
+		"equipment": [
+			"Rivare",
+			"6-vägsblad",
+			"Trimble-GPS"
+		]
 	},
 	{
-		"name": "CAT D6T LGP-V-PAT Steg 3A",
+		"name": "CAT D6 Super-LGP",
 		"type": "bulldozer",
-		"modelYear": "2007",
-		"ecoClass": "Steg 3A",
+		"modelYear": "2020",
+		"ecoClass": "Steg 5",
 		"brand": "Caterpillar",
-		"driver": "Robert Nilsson",
-		"equipment": ["Rivare", "6-vägsblad"]
+		"driver": "Björn Nilsson",
+		"equipment": [
+			"Rivare",
+			"6-vägsblad",
+			"Trimble-GPS"
+		]
 	},
 	{
 		"name": "CASE CX300D",
@@ -32,17 +40,16 @@
 			"Tjälkrok",
 			"Bergrensningsskopa",
 			"Bred skopa m. tänder",
-			"Asfaltstrissor",
 			"3.2 tons hydraulhammare"
 		]
 	},
 	{
-		"name": "CASE CX290B",
+		"name": "Doosan DX140W",
 		"type": "excavator",
-		"modelYear": "2008",
-		"ecoClass": "Steg 3A",
-		"brand": "Case",
-		"driver": "Förare varierar",
+		"modelYear": "2020",
+		"ecoClass": "Steg 5",
+		"brand": "Doosan",
+		"driver": "Anton Trulsson",
 		"equipment": [
 			"Grävskopa",
 			"VA-skopa",
@@ -70,7 +77,6 @@
 			"Tjälkrok",
 			"Bergrensningsskopa",
 			"Bred skopa m. tänder",
-			"Asfaltstrissor",
 			"3.2 tons hydraulhammare"
 		]
 	},
@@ -89,7 +95,6 @@
 			"Tjälkrok",
 			"Bergrensningsskopa",
 			"Bred skopa m. tänder",
-			"Asfaltstrissor",
 			"3.2 tons hydraulhammare"
 		]
 	},
@@ -99,7 +104,7 @@
 		"modelYear": "2015",
 		"ecoClass": "Steg 3B",
 		"brand": "Case",
-		"driver": "Noah Edensten",
+		"driver": "Edvin Andersson",
 		"equipment": [
 			"Grävskopa",
 			"VA-skopa",
@@ -149,11 +154,31 @@
 		"modelYear": "2014",
 		"ecoClass": "Euro 5",
 		"brand": "Volvo",
-		"driver": "Jörgen Göransson",
+		"driver": "Johan Espenkrona",
 		"equipment": [
 			"Kran",
 			"Kranskopa",
 			"Boggie-jigg - 30 000 kg lastvikt (bil + släp)"
 		]
+	},
+	{
+		"name": "HUMBAUR MASKINSLÄP",
+		"type": "misc",
+		"modelYear": "2020",
+		"ecoClass": "",
+		"brand": "HUMBAUR",
+		"driver": "Johan Espenkrona",
+		"equipment": [
+			"28 500 kg lastvikt"
+		]
+	},
+	{
+		"name": "BOMAG BW177",
+		"type": "misc",
+		"modelYear": "2003",
+		"ecoClass": "",
+		"brand": "BOMAG",
+		"driver": "Förare varierar",
+		"equipment": []
 	}
 ]
