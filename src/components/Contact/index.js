@@ -14,11 +14,11 @@ export default function Intro(props) {
 					<a href='tel:0705868553'>070-58 68 553</a>
 				</div>
 				<div className='contact-item col-sm-6 col-12'>
-					<a href='mailto:vagoschaktmaskinerab@telia.com'>
+					<a href='robban@vagochschaktmaskiner.se'>
 						<FontAwesomeIcon size='4x' icon={faEnvelope} />
 					</a>
-					<a href='mailto:vagoschaktmaskinerab@telia.com'>
-						vagoschaktmaskinerab@telia.com
+					<a href='mailto:robban@vagochschaktmaskiner.se'>
+						robban@vagochschaktmaskiner.se
 					</a>
 				</div>
 			</div>
