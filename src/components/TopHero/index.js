@@ -24,7 +24,7 @@ export default function TopHero(props) {
 		>
 			<div className='container'>
 				<div className='col-12 text-wrap'>
-					<h1>VÄG- & Schaktmaskiner AB</h1>
+					<h1>VÄG & Schaktmaskiner AB</h1>
 				</div>
 			</div>
 		</div>
