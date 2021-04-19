@@ -1,4 +1,4 @@
-import a from '../../assets/images/gallery/IMG_7552.webp';
+import a from '../../assets/images/gallery/IMG_7603.webp';
 import b from '../../assets/images/gallery/IMG_7591.webp';
 import c from '../../assets/images/gallery/IMG_7592.webp';
 import d from '../../assets/images/gallery/IMG_7593.webp';
