@@ -11,6 +11,7 @@ import edvin from '../../assets/images/employees/edvin_350.webp';
 import anton from '../../assets/images/employees/anton_350.webp';
 import freddy from '../../assets/images/employees/freddy_350.webp';
 import tobias from '../../assets/images/employees/tobias_350.webp';
+import alexander from '../../assets/images/employees/alexander_350.webp';
 
 export default [
 	{ name: 'Robert Nilsson', url: robban },
@@ -26,4 +27,5 @@ export default [
 	{ name: 'Edvin Andersson', url: edvin },
 	{ name: 'Tobias Wikström', url: tobias },
 	{ name: 'Freddy Arvidsson', url: freddy },
+	{ name: 'Aleczander Holm', url: alexander },
 ];
