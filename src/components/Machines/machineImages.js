@@ -7,7 +7,7 @@ import caseCx250d from '../../assets/images/machines/CASE_CX250D.webp';
 import caseCx245dsr from '../../assets/images/machines/CASE_CX245D-SR.webp';
 import caseCx75csr from '../../assets/images/machines/CASE_CX75C.webp';
 import volvoEwr150e from '../../assets/images/machines/VOLVO_EWR150E.webp';
-import volvoFm11 from '../../assets/images/machines/VOLVO_FM11.webp';
+import volvoFm13 from '../../assets/images/machines/VOLVO_FM13.webp';
 import humbaurTrailer from '../../assets/images/machines/HUMBAUR_MASKINSLAP.webp';
 import bomagBw177 from '../../assets/images/machines/BOMAG_BW177.webp';
 
@@ -21,7 +21,7 @@ export default [
 	{ name: 'CASE 245D-SR', url: caseCx245dsr },
 	{ name: 'CASE CX75C-SR', url: caseCx75csr },
 	{ name: 'VOLVO EWR150E', url: volvoEwr150e },
-	{ name: 'VOLVO FM11', url: volvoFm11 },
+	{ name: 'VOLVO FM13', url: volvoFm13 },
 	{ name: 'HUMBAUR MASKINSLÄP', url: humbaurTrailer },
 	{ name: 'BOMAG BW177', url: bomagBw177 },
 ];

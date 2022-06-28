@@ -150,16 +150,15 @@
 		]
 	},
 	{
-		"name": "VOLVO FM11",
+		"name": "VOLVO FM13",
 		"type": "misc",
 		"modelYear": "2014",
-		"ecoClass": "Euro 5",
+		"ecoClass": "Euro 6",
 		"brand": "Volvo",
 		"driver": "Johan Espenkrona",
 		"equipment": [
 			"Kran",
-			"Kranskopa",
-			"Boggie-jigg - 30 000 kg lastvikt (bil + släp)"
+			"Kranväxlare"
 		]
 	},
 	{
