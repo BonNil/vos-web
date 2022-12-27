@@ -45,24 +45,6 @@ function App() {
 				</Section>
 				<Section
 					darkMode={false}
-					id='excavators'
-					heading='GRÄVMASKINER'
-					subheading='Moderna, utrustade och väl underhållna'
-					align='left'
-				>
-					<Machines type='excavator' />
-				</Section>
-				<Section
-					darkMode={true}
-					id='wheeledExcavators'
-					heading='HJULGRÄVARE'
-					subheading='Moderna, utrustade och väl underhållna'
-					align='left'
-				>
-					<Machines type='wheeledExcavator' />
-				</Section>
-				<Section
-					darkMode={false}
 					id='bulldozers'
 					heading='BANDTRAKTORER'
 					subheading='Stora maskiner, stora blad, stora resultat'
@@ -72,6 +54,33 @@ function App() {
 				</Section>
 				<Section
 					darkMode={true}
+					id='excavators'
+					heading='GRÄVMASKINER'
+					subheading='Moderna, utrustade och väl underhållna'
+					align='left'
+				>
+					<Machines type='excavator' />
+				</Section>
+				<Section
+					darkMode={false}
+					id='wheeledExcavators'
+					heading='HJULGRÄVARE'
+					subheading='Moderna, utrustade och väl underhållna'
+					align='left'
+				>
+					<Machines type='wheeledExcavator' />
+				</Section>
+				<Section
+					darkMode={true}
+					id='wheeledLoaders'
+					heading='HJULLASTARE'
+					subheading='Moderna, utrustade och väl underhållna'
+					align='left'
+				>
+					<Machines type='wheeledLoader' />
+				</Section>
+				<Section
+					darkMode={false}
 					id='misc-machines'
 					heading='ÖVRIGA MASKINER'
 					subheading=''
@@ -80,7 +89,7 @@ function App() {
 					<Machines type='misc' />
 				</Section>
 				<Section
-					darkMode={false}
+					darkMode={true}
 					id='gallery'
 					heading='BILDGALLERI'
 					subheading='Foton på utrustning, projektarbete, anställda mm.'
@@ -89,7 +98,7 @@ function App() {
 					<ImageGallery />
 				</Section>
 				<Section
-					darkMode={true}
+					darkMode={false}
 					id='contact'
 					heading='KONTAKT'
 					subheading='Hör av dig till oss med ditt projekt'

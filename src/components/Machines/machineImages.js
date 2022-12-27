@@ -4,8 +4,11 @@ import cat910 from '../../assets/images/machines/CAT_910K.webp';
 import caseCx300d from '../../assets/images/machines/CASE_CX300D.webp';
 import doosanDx140w from '../../assets/images/machines/DOOSAN_DX140W.webp';
 import caseCx250d from '../../assets/images/machines/CASE_CX250D.webp';
+import caseCx250dLc from '../../assets/images/machines/CASE_CX250D_LC.webp';
 import caseCx245dsr from '../../assets/images/machines/CASE_CX245D-SR.webp';
+import cat310ng from '../../assets/images/machines/CAT_310_NG.webp';
 import caseCx75csr from '../../assets/images/machines/CASE_CX75C.webp';
+import case321f from '../../assets/images/machines/CASE_321F.webp';
 import volvoEwr150e from '../../assets/images/machines/VOLVO_EWR150E.webp';
 import volvoFm13 from '../../assets/images/machines/VOLVO_FM13.webp';
 import humbaurTrailer from '../../assets/images/machines/HUMBAUR_MASKINSLAP.webp';
@@ -18,8 +21,11 @@ export default [
 	{ name: 'CASE CX300D', url: caseCx300d },
 	{ name: 'Doosan DX140W', url: doosanDx140w },
 	{ name: 'CASE 250D', url: caseCx250d },
+	{ name: 'CASE 250D LC', url: caseCx250dLc },
 	{ name: 'CASE 245D-SR', url: caseCx245dsr },
+	{ name: 'CAT 310 NG', url: cat310ng },
 	{ name: 'CASE CX75C-SR', url: caseCx75csr },
+	{ name: 'CASE 321F', url: case321f },
 	{ name: 'VOLVO EWR150E', url: volvoEwr150e },
 	{ name: 'VOLVO FM13', url: volvoFm13 },
 	{ name: 'HUMBAUR MASKINSLÄP', url: humbaurTrailer },

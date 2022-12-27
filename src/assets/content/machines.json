@@ -40,13 +40,14 @@
 			"Tjälkrok",
 			"Bergrensningsskopa",
 			"Bred skopa m. tänder",
-			"3.2 tons hydraulhammare"
+			"2.8 tons hydraulhammare",
+			"2.8 tons crusher"
 		]
 	},
 	{
-		"name": "CASE 250D",
+		"name": "CASE 250D LC",
 		"type": "excavator",
-		"modelYear": "2016",
+		"modelYear": "2021",
 		"ecoClass": "Steg 4",
 		"brand": "Case",
 		"driver": "Elias Nilsson",
@@ -58,7 +59,27 @@
 			"Tjälkrok",
 			"Bergrensningsskopa",
 			"Bred skopa m. tänder",
-			"3.2 tons hydraulhammare"
+			"2.8 tons hydraulhammare",
+			"2.8 tons crusher"
+		]
+	},
+	{
+		"name": "CASE 250D",
+		"type": "excavator",
+		"modelYear": "2016",
+		"ecoClass": "Steg 4",
+		"brand": "Case",
+		"driver": "Edvin Andersson",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Bred skopa m. tänder",
+			"2.8 tons hydraulhammare",
+			"2.8 tons crusher"
 		]
 	},
 	{
@@ -76,7 +97,27 @@
 			"Tjälkrok",
 			"Bergrensningsskopa",
 			"Bred skopa m. tänder",
-			"3.2 tons hydraulhammare"
+			"2.8 tons hydraulhammare",
+			"2.8 tons crusher"
+		]
+	},
+	{
+		"name": "CAT 310 NG",
+		"type": "excavator",
+		"modelYear": "2022",
+		"ecoClass": "Steg 5",
+		"brand": "CAT",
+		"driver": "Dan Nilsson",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Bred skopa m. tänder",
+			"Asfaltstrissor",
+			"Gallerskopa"
 		]
 	},
 	{
@@ -85,7 +126,7 @@
 		"modelYear": "2015",
 		"ecoClass": "Steg 3B",
 		"brand": "Case",
-		"driver": "Edvin Andersson",
+		"driver": "Förare varierar",
 		"equipment": [
 			"Grävskopa",
 			"VA-skopa",
@@ -103,7 +144,7 @@
 		"modelYear": "2017",
 		"ecoClass": "Steg 4",
 		"brand": "Volvo",
-		"driver": "Fredrik Asplund",
+		"driver": "Adam Nilsson",
 		"equipment": [
 			"Grävskopa",
 			"VA-skopa",
@@ -112,7 +153,8 @@
 			"Tjälkrok",
 			"Bred skopa m. tänder",
 			"Asfaltstrissor",
-			"Planeringsbalk m. rulle"
+			"Planeringsbalk m. rulle",
+			"Sopborste"
 		]
 	},
 	{
@@ -128,15 +170,14 @@
 			"Smalskopa 80-50cm",
 			"Gafflar",
 			"Tjälkrok",
-			"Bergrensningsskopa",
-			"Bred skopa m. tänder",
 			"Asfaltstrissor",
-			"Planeringsbalk m. rulle"
+			"Planeringsbalk m. rulle",
+			"Sopborste"
 		]
 	},
 	{
 		"name": "CAT 910K",
-		"type": "misc",
+		"type": "wheeledLoader",
 		"modelYear": "2015",
 		"ecoClass": "Steg 3B",
 		"brand": "Caterpillar",
@@ -147,6 +188,19 @@
 			"Kombiskopa",
 			"Stengrep",
 			"Sopvals"
+		]
+	},
+	{
+		"name": "CASE 321F",
+		"type": "wheeledLoader",
+		"modelYear": "2020",
+		"ecoClass": "Steg 5",
+		"brand": "Case",
+		"driver": "Förare varierar",
+		"equipment": [
+			"Planeringsskopa",
+			"Gafflar",
+			"Stengrep"
 		]
 	},
 	{
