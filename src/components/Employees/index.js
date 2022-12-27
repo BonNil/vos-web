@@ -17,7 +17,7 @@ export default function Employees(props) {
 			>
 				<div className='employeeCard'>
 					<div>
-						<img className='portrait' src={result[0].url}></img>
+						<img className='portrait' src={result[0].url} alt={result[0].alt}></img>
 						<div className='colorOverlay'></div>
 					</div>
 					<div className='info'>

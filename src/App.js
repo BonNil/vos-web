@@ -29,7 +29,7 @@ function App() {
 					darkMode={false}
 					id='about'
 					heading='OM OSS'
-					subheading='Och vad vi kan göra för dig'
+					subheading='Maskinentreprenad i Skåne med generationers erfarenhet'
 					align='left'
 				>
 					<Intro />

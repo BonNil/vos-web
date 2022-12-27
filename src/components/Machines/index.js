@@ -20,7 +20,7 @@ export default function Machines(props) {
 				<div className='machineCard'>
 					<div className='card-inner'>
 						<div className='image'>
-							<img className='portrait' src={result[0].url}></img>
+							<img className='portrait' src={result[0].url} alt={result[0].alt}></img>
 							{/* <div className='hover-overlay'>
 								<span>TILLBEHÖR</span>
 								<ul>

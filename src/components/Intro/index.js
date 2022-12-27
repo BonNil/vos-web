@@ -27,14 +27,6 @@ export default function Intro(props) {
 			<div className='projects container'>
 				<div className='row'>
 					<div className='project col-sm-6 col-12'>
-						<FontAwesomeIcon size='5x' icon={faFutbol} />
-						<p>
-							Golfbanor, paddockar, travbanor, fotbollsplaner mm. Vi har stor
-							erfarenhet inom markarbete för olika sport- och
-							fritidsanläggningar.
-						</p>
-					</div>
-					<div className='project col-sm-6 col-12'>
 						<FontAwesomeIcon size='5x' icon={faRoad} />
 						<p>
 							Vägarbeten i alla dess former, stora som små. Vi har framgångsrikt
@@ -52,7 +44,15 @@ export default function Intro(props) {
 						<FontAwesomeIcon size='5x' icon={faBuilding} />
 						<p>
 							Schakt- och planeringsarbete för byggprojekt är vårt levebröd och
-							därför också ett område vi har extensiv kunskap inom.
+							därför såklart ett område vi har extensiv kunskap inom.
+						</p>
+					</div>
+					<div className='project col-sm-6 col-12'>
+						<FontAwesomeIcon size='5x' icon={faFutbol} />
+						<p>
+							Golfbanor, paddockar, travbanor, fotbollsplaner mm. Vi har stor
+							erfarenhet inom markarbete för olika sport- och
+							fritidsanläggningar.
 						</p>
 					</div>
 					<div className='project col-sm-6 col-12'>
