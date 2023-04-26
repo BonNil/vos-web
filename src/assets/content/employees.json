@@ -20,11 +20,6 @@
 		"started": "Anställd 2006"
 	},
 	{
-		"name": "Fredrik Asplund",
-		"role": "Grävmaskinist",
-		"started": "Anställd 2012"
-	},
-	{
 		"name": "Elias Nilsson",
 		"role": "Grävmaskinist",
 		"started": "Anställd 2017"
@@ -55,16 +50,6 @@
 		"started": "Anställd 2020"
 	},
 	{
-		"name": "Tobias Wikström",
-		"role": "Grävmaskinist",
-		"started": "Anställd 2021"
-	},
-	{
-		"name": "Freddy Arvidsson",
-		"role": "Anläggare",
-		"started": "Anställd 2021"
-	},
-	{
 		"name": "Aleczander Holm",
 		"role": "Anläggare",
 		"started": "Anställd 2021"
@@ -78,5 +63,10 @@
 		"name": "Adam Nilsson",
 		"role": "Grävmaskinist",
 		"started": "Anställd 2022"
+	},
+	{
+		"name": "Sebastian Hjort",
+		"role": "Grävmaskinist / Bandtraktorpilot",
+		"started": "Anställd 2023"
 	}
 ]
