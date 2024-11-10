@@ -1,5 +1,4 @@
 import robban from '../../assets/images/employees/robban_350.webp';
-import lill from '../../assets/images/employees/lill_350.webp';
 import johan from '../../assets/images/employees/johan_n_350.webp';
 import bjorn from '../../assets/images/employees/bjorn_350.webp';
 import dan from '../../assets/images/employees/dan_350.webp';
@@ -18,7 +17,6 @@ import christian from '../../assets/images/employees/christian_350.webp';
 
 export default [
 	{ name: 'Robert Nilsson', url: robban, alt: 'Robbert Nilsson, Grundare, VD och ägare' },
-	{ name: 'Lill Nilsson', url: lill, alt: 'Lill Nilsson, Ekonomi och Firmatecknare' },
 	{ name: 'Björn Nilsson', url: bjorn, alt: 'Björn Nilsson, Bandtraktorpilot' },
 	{ name: 'Johan Nilsson', url: johan, alt: 'Johan Nilsson, Grävmaskinist' },
 	{ name: 'Dan Nilsson', url: dan, alt: 'Dan Nilsson, Arbetsledare' },
