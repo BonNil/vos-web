@@ -14,6 +14,7 @@ import truls from '../../assets/images/employees/truls_350.webp';
 import jimmy from '../../assets/images/employees/jimmy_350.webp';
 import johanS from '../../assets/images/employees/johan_sandstrom_350.webp';
 import christian from '../../assets/images/employees/christian_350.webp';
+import ylva from '../../assets/images/employees/ylva_350.webp';
 
 export default [
 	{ name: 'Robert Nilsson', url: robban, alt: 'Robbert Nilsson, Grundare, VD och ägare' },
@@ -31,5 +32,5 @@ export default [
 	{ name: 'Truls Emanuelsson', url: truls, alt: 'Truls Emanuelsson, Anläggare/Grävmaskinist' },
 	{ name: 'Jimmy Pålsson', url: jimmy, alt: 'Jimmy Pålsson, Grävmaskinist' },
 	{ name: 'Johan Sandström', url: johanS, alt: 'Johan Sandström, Grävmaskinist' },
-	{ name: 'Christian Mårtensson', url: christian, alt: 'Christian Mårtensson, Arbetsledare' },
+	{ name: 'Ylva Ljungberg', url: ylva, alt: 'Ylva Ljungberg, Anläggare' },
 ];
