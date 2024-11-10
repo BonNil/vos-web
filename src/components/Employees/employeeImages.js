@@ -32,5 +32,6 @@ export default [
 	{ name: 'Truls Emanuelsson', url: truls, alt: 'Truls Emanuelsson, Anläggare/Grävmaskinist' },
 	{ name: 'Jimmy Pålsson', url: jimmy, alt: 'Jimmy Pålsson, Grävmaskinist' },
 	{ name: 'Johan Sandström', url: johanS, alt: 'Johan Sandström, Grävmaskinist' },
+	{ name: 'Christian Mårtensson', url: christian, alt: 'Christian Mårtensson, Arbetsledare' },
 	{ name: 'Ylva Ljungberg', url: ylva, alt: 'Ylva Ljungberg, Anläggare' },
 ];
