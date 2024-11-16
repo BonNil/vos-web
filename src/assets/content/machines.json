@@ -139,25 +139,6 @@
 		]
 	},
 	{
-		"name": "VOLVO EWR150E",
-		"type": "wheeledExcavator",
-		"modelYear": "2017",
-		"ecoClass": "Steg 4",
-		"brand": "Volvo",
-		"driver": "Adam Nilsson",
-		"equipment": [
-			"Grävskopa",
-			"VA-skopa",
-			"Smalskopa 80-50cm",
-			"Gafflar",
-			"Tjälkrok",
-			"Bred skopa m. tänder",
-			"Asfaltstrissor",
-			"Planeringsbalk m. rulle",
-			"Sopborste"
-		]
-	},
-	{
 		"name": "Doosan DX140W",
 		"type": "wheeledExcavator",
 		"modelYear": "2020",
