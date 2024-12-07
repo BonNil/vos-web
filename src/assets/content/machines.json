@@ -48,6 +48,26 @@
 		]
 	},
 	{
+		"id": "CASE 250E",
+		"name": "CASE 250E",
+		"type": "excavator",
+		"modelYear": "2024",
+		"ecoClass": "Steg 5",
+		"brand": "Case",
+		"driver": "Elias Nilsson",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Planeringsskopa m. tänder",
+			"2.8 tons hydraulhammare",
+			"2.8 tons crusher"
+		]
+	},
+	{
 		"id": "CASE 250D LC",
 		"name": "CASE 250D LC",
 		"type": "excavator",
@@ -95,26 +115,6 @@
 		"ecoClass": "Steg 4",
 		"brand": "Case",
 		"driver": "Jimmy Pålsson",
-		"equipment": [
-			"Grävskopa",
-			"VA-skopa",
-			"Smalskopa 80-50cm",
-			"Gafflar",
-			"Tjälkrok",
-			"Bergrensningsskopa",
-			"Planeringsskopa m. tänder",
-			"2.8 tons hydraulhammare",
-			"2.8 tons crusher"
-		]
-	},
-	{
-		"id": "CASE 250E",
-		"name": "CASE 250E",
-		"type": "excavator",
-		"modelYear": "2024",
-		"ecoClass": "Steg 5",
-		"brand": "Case",
-		"driver": "Elias Nilsson",
 		"equipment": [
 			"Grävskopa",
 			"VA-skopa",
