@@ -1,5 +1,6 @@
 [
 	{
+		"id": "CAT D6T LGP-V-PAT",
 		"name": "CAT D6T LGP-V-PAT",
 		"type": "bulldozer",
 		"modelYear": "2015",
@@ -13,6 +14,7 @@
 		]
 	},
 	{
+		"id": "CAT D6 Super-LGP",
 		"name": "CAT D6 Super-LGP",
 		"type": "bulldozer",
 		"modelYear": "2020",
@@ -26,9 +28,110 @@
 		]
 	},
 	{
+		"id": "CASE CX300D",
 		"name": "CASE CX300D",
 		"type": "excavator",
 		"modelYear": "2017",
+		"ecoClass": "Steg 4",
+		"brand": "Case",
+		"driver": "Sebastian Hjort",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Planeringsskopa m. tänder",
+			"2.8 tons hydraulhammare",
+			"2.8 tons crusher"
+		]
+	},
+	{
+		"id": "CASE 250D LC",
+		"name": "CASE 250D LC",
+		"type": "excavator",
+		"modelYear": "2021",
+		"ecoClass": "Steg 4",
+		"brand": "Case",
+		"driver": "Milton Gistrup",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Planeringsskopa m. tänder",
+			"2.8 tons hydraulhammare",
+			"2.8 tons crusher"
+		]
+	},
+	{
+		"id": "CASE 250D LC-2",
+		"name": "CASE 250D LC",
+		"type": "excavator",
+		"modelYear": "2021",
+		"ecoClass": "Steg 4",
+		"brand": "Case",
+		"driver": "Johan Sandström",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Planeringsskopa m. tänder",
+			"2.8 tons hydraulhammare",
+			"2.8 tons crusher"
+		]
+	},
+	{
+		"id": "CASE 250D",
+		"name": "CASE 250D",
+		"type": "excavator",
+		"modelYear": "2016",
+		"ecoClass": "Steg 4",
+		"brand": "Case",
+		"driver": "Jimmy Pålsson",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Planeringsskopa m. tänder",
+			"2.8 tons hydraulhammare",
+			"2.8 tons crusher"
+		]
+	},
+	{
+		"id": "CASE 250E",
+		"name": "CASE 250E",
+		"type": "excavator",
+		"modelYear": "2024",
+		"ecoClass": "Steg 5",
+		"brand": "Case",
+		"driver": "Elias Nilsson",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Bergrensningsskopa",
+			"Planeringsskopa m. tänder",
+			"2.8 tons hydraulhammare",
+			"2.8 tons crusher"
+		]
+	},
+	{
+		"id": "CASE 245D-SR",
+		"name": "CASE 245D-SR",
+		"type": "excavator",
+		"modelYear": "2019",
 		"ecoClass": "Steg 4",
 		"brand": "Case",
 		"driver": "Johan Nilsson",
@@ -39,36 +142,18 @@
 			"Gafflar",
 			"Tjälkrok",
 			"Bergrensningsskopa",
-			"Bred skopa m. tänder",
+			"Planeringsskopa m. tänder",
 			"2.8 tons hydraulhammare",
 			"2.8 tons crusher"
 		]
 	},
 	{
-		"name": "CASE 250D LC",
+		"id": "CAT 310 NG",
+		"name": "CAT 310 NG",
 		"type": "excavator",
-		"modelYear": "2021",
-		"ecoClass": "Steg 4",
-		"brand": "Case",
-		"driver": "Elias Nilsson",
-		"equipment": [
-			"Grävskopa",
-			"VA-skopa",
-			"Smalskopa 80-50cm",
-			"Gafflar",
-			"Tjälkrok",
-			"Bergrensningsskopa",
-			"Bred skopa m. tänder",
-			"2.8 tons hydraulhammare",
-			"2.8 tons crusher"
-		]
-	},
-	{
-		"name": "CASE 250D",
-		"type": "excavator",
-		"modelYear": "2016",
-		"ecoClass": "Steg 4",
-		"brand": "Case",
+		"modelYear": "2022",
+		"ecoClass": "Steg 5",
+		"brand": "CAT",
 		"driver": "Edvin Andersson",
 		"equipment": [
 			"Grävskopa",
@@ -77,50 +162,13 @@
 			"Gafflar",
 			"Tjälkrok",
 			"Bergrensningsskopa",
-			"Bred skopa m. tänder",
-			"2.8 tons hydraulhammare",
-			"2.8 tons crusher"
-		]
-	},
-	{
-		"name": "CASE 245D-SR",
-		"type": "excavator",
-		"modelYear": "2019",
-		"ecoClass": "Steg 4",
-		"brand": "Case",
-		"driver": "Förare varierar",
-		"equipment": [
-			"Grävskopa",
-			"VA-skopa",
-			"Smalskopa 80-50cm",
-			"Gafflar",
-			"Tjälkrok",
-			"Bergrensningsskopa",
-			"Bred skopa m. tänder",
-			"2.8 tons hydraulhammare",
-			"2.8 tons crusher"
-		]
-	},
-	{
-		"name": "CAT 310 NG",
-		"type": "excavator",
-		"modelYear": "2022",
-		"ecoClass": "Steg 5",
-		"brand": "CAT",
-		"driver": "Dan Nilsson",
-		"equipment": [
-			"Grävskopa",
-			"VA-skopa",
-			"Smalskopa 80-50cm",
-			"Gafflar",
-			"Tjälkrok",
-			"Bergrensningsskopa",
-			"Bred skopa m. tänder",
+			"Planeringsskopa m. tänder",
 			"Asfaltstrissor",
 			"Gallerskopa"
 		]
 	},
 	{
+		"id": "CASE CX75C-SR",
 		"name": "CASE CX75C-SR",
 		"type": "excavator",
 		"modelYear": "2015",
@@ -134,12 +182,13 @@
 			"Gafflar",
 			"Tjälkrok",
 			"Bergrensningsskopa",
-			"Bred skopa m. tänder",
+			"Planeringsskopa m. tänder",
 			"Asfaltstrissor"
 		]
 	},
 	{
-		"name": "Doosan DX140W",
+		"id": "Doosan DX 140W",
+		"name": "Doosan DX 140W",
 		"type": "wheeledExcavator",
 		"modelYear": "2020",
 		"ecoClass": "Steg 5",
@@ -157,6 +206,26 @@
 		]
 	},
 	{
+		"id": "Develon DX 165WR",
+		"name": "Develon DX 165WR",
+		"type": "wheeledExcavator",
+		"modelYear": "2024",
+		"ecoClass": "Steg 5",
+		"brand": "Develon",
+		"driver": "Adam Nilsson",
+		"equipment": [
+			"Grävskopa",
+			"VA-skopa",
+			"Smalskopa 80-50cm",
+			"Gafflar",
+			"Tjälkrok",
+			"Asfaltstrissor",
+			"Planeringsbalk m. rulle",
+			"Sopborste"
+		]
+	},
+	{
+		"id": "CAT 910K",
 		"name": "CAT 910K",
 		"type": "wheeledLoader",
 		"modelYear": "2015",
@@ -172,6 +241,7 @@
 		]
 	},
 	{
+		"id": "CASE 321F",
 		"name": "CASE 321F",
 		"type": "wheeledLoader",
 		"modelYear": "2020",
@@ -185,6 +255,7 @@
 		]
 	},
 	{
+		"id": "VOLVO FM13",
 		"name": "VOLVO FM13",
 		"type": "misc",
 		"modelYear": "2014",
@@ -198,6 +269,7 @@
 		]
 	},
 	{
+		"id": "HUMBAUR MASKINSLÄP",
 		"name": "HUMBAUR MASKINSLÄP",
 		"type": "misc",
 		"modelYear": "2020",
@@ -209,6 +281,7 @@
 		]
 	},
 	{
+		"id": "BOMAG BW177",
 		"name": "BOMAG BW177",
 		"type": "misc",
 		"modelYear": "2003",
