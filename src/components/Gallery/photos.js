@@ -1,5 +1,6 @@
 import a from '../../assets/images/gallery/a.webp';
 import b from '../../assets/images/gallery/b.webp';
+import c from '../../assets/images/gallery/c.webp';
 import d from '../../assets/images/gallery/d.webp';
 import f from '../../assets/images/gallery/f.webp';
 import g from '../../assets/images/gallery/g.webp';
@@ -27,16 +28,17 @@ import a3 from '../../assets/images/gallery/a3.webp';
 import a4 from '../../assets/images/gallery/a4.webp';
 import a5 from '../../assets/images/gallery/a5.webp';
 import a6 from '../../assets/images/gallery/a6.webp';
+import a7 from '../../assets/images/gallery/a7.webp';
 import a8 from '../../assets/images/gallery/a8.webp';
 import a9 from '../../assets/images/gallery/a9.webp';
 
 var imageSrcs = [
 	{ src: a4, width: 1, height: 1 },
 	{ src: s, width: 2, height: 1 },
-	{ src: d, width: 1, height: 1 },
-	{ src: x, width: 2, height: 1 },
+	{ src: c, width: 2, height: 1 },
 	{ src: a5, width: 1, height: 1 },
-	{ src: a8, width: 2, height: 1 },
+	{ src: x, width: 2, height: 1 },
+	{ src: a7, width: 1, height: 1 },
 	{ src: f, width: 1, height: 1 },
 	{ src: g, width: 1, height: 1 },
 	{ src: h, width: 1, height: 1 },
@@ -46,6 +48,7 @@ var imageSrcs = [
 	{ src: a3, width: 1, height: 1 },
 	{ src: m, width: 2, height: 1 },
 	{ src: b, width: 1, height: 1 },
+	{ src: a8, width: 2, height: 1 },
 	{ src: n, width: 1, height: 1 },
 	{ src: o, width: 1, height: 1 },
 	{ src: p, width: 2, height: 1 },
@@ -61,7 +64,8 @@ var imageSrcs = [
 	{ src: a6, width: 1, height: 1 },
 	{ src: z, width: 2, height: 1 },
 	{ src: a2, width: 2, height: 1 },
-	{ src: a9, width: 1, height: 1 }
+	{ src: a9, width: 1, height: 1 },
+	{ src: d, width: 1, height: 1 },
 ];
 
 export default imageSrcs;
