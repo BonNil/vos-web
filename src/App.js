@@ -91,8 +91,8 @@ function App() {
 				<Section
 					darkMode={true}
 					id='gallery'
-					heading='BILDGALLERI'
-					subheading='Foton på utrustning, projektarbete, anställda mm.'
+					heading='PROJEKTBILDER'
+					subheading='Foton på projektarbete, anställda, utrustning mm.'
 					align='left'
 				>
 					<ImageGallery />

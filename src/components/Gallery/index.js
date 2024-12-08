@@ -9,8 +9,8 @@ export default function ImageGallery() {
 		<div className='imageGallery'>
 			<Gallery
 				photos={photos}
-				onClick={(event, { photo, index }) => window.open(photo.original, "_blank")}
-				direction={'column'} />
+				onClick={(event, { photo, index }) => window.open(photo.src, "_blank")}
+			/>
 		</div>
 	);
 }
