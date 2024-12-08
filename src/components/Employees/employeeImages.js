@@ -24,7 +24,7 @@ export default [
 	{ name: 'Jörgen Göransson', url: jorgen, alt: 'Jörgen Göransson, Transportansvarig' },
 	{ name: 'Elias Nilsson', url: elias, alt: 'Elias Nilsson, Grävmaskinist' },
 	{ name: 'Johan Espenkrona', url: johanEspenkrona, alt: 'Johan Espenkrona, Anläggare och lastbilschaufför' },
-	{ name: 'Anton Trulsson', url: anton, alt: 'Anton Trulsson, Hjulgrävarmaskinist' },
+	{ name: 'Anton Nellqvist', url: anton, alt: 'Anton Nellqvist, Hjulgrävarmaskinist' },
 	{ name: 'Edvin Andersson', url: edvin, alt: 'Edvin Andersson, Grävmaskinist' },
 	{ name: 'Niklas Möller', url: niklas, alt: 'Niklas Möller, Anläggare' },
 	{ name: 'Adam Nilsson', url: adam, alt: 'Adam Nilsson, Grävmaskinist' },
@@ -33,5 +33,5 @@ export default [
 	{ name: 'Jimmy Pålsson', url: jimmy, alt: 'Jimmy Pålsson, Grävmaskinist' },
 	{ name: 'Johan Sandström', url: johanS, alt: 'Johan Sandström, Grävmaskinist' },
 	{ name: 'Christian Mårtensson', url: christian, alt: 'Christian Mårtensson, Arbetsledare' },
-	{ name: 'Ylva Ljungberg', url: ylva, alt: 'Ylva Ljungberg, Anläggare' },
+	{ name: 'Ylva Ljungberg', url: ylva, alt: 'Ylva Ljungberg, Anläggare' },	
 ];
