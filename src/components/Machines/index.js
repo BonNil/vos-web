@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import machinesJson from '../../assets/content/machines.json';
 import './machines.sass';
 import images from './machineImages';
@@ -28,7 +30,7 @@ export default function Machines(props) {
 							<div className='equipment'>
 								<ul>
 									{machine.equipment.map((value, index) => {
-										return <li key={`equip-${index}`}>{value}</li>;
+										return <li key={`equip-${index}`}><FontAwesomeIcon icon={faCaretRight} color='#ffc843' /> <span>{value}</span></li>;
 									})}
 								</ul>
 							</div>
