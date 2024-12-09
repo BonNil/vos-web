@@ -11,6 +11,7 @@ import niklas from '../../assets/images/employees/niklas_m_350.webp';
 import adam from '../../assets/images/employees/adam_n_350.webp';
 import sebastian from '../../assets/images/employees/sebastian_350.webp';
 import truls from '../../assets/images/employees/truls_350.webp';
+import milton from '../../assets/images/employees/milton_350.webp';
 import jimmy from '../../assets/images/employees/jimmy_350.webp';
 import johanS from '../../assets/images/employees/johan_sandstrom_350.webp';
 import christian from '../../assets/images/employees/christian_350.webp';
@@ -30,8 +31,9 @@ export default [
 	{ name: 'Adam Nilsson', url: adam, alt: 'Adam Nilsson, Grävmaskinist' },
 	{ name: 'Sebastian Hjort', url: sebastian, alt: 'Sebastian Hjort, Grävmaskinist/Bandtraktorpilot' },
 	{ name: 'Truls Emanuelsson', url: truls, alt: 'Truls Emanuelsson, Anläggare/Grävmaskinist' },
+	{ name: 'Milton Gistrup', url: milton, alt: 'Milton Gistrup, Grävmaskinist' },
 	{ name: 'Jimmy Pålsson', url: jimmy, alt: 'Jimmy Pålsson, Grävmaskinist' },
 	{ name: 'Johan Sandström', url: johanS, alt: 'Johan Sandström, Grävmaskinist' },
 	{ name: 'Christian Mårtensson', url: christian, alt: 'Christian Mårtensson, Arbetsledare' },
-	{ name: 'Ylva Ljungberg', url: ylva, alt: 'Ylva Ljungberg, Anläggare' },	
+	{ name: 'Ylva Ljungberg', url: ylva, alt: 'Ylva Ljungberg, Anläggare' },
 ];
